@@ -1,0 +1,140 @@
+.div1{
+  max-width: 100%;
+  max-height: 70%;
+  background-color: black;
+  color: azure;
+  min-height: 70%;
+  min-width: 100%;
+  padding: 9;
+  margin: 0%;
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  overflow: hidden;
+  z-index: -2;
+}
+
+
+.bg {
+  position: absolute;
+  margin-left: 90%;
+  margin-bottom: 50%;
+}
+
+.titlecontainer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.js{
+  width: 100px;
+}
+
+.py{
+  width: 100px;
+}
+
+.logos{
+  vertical-align: middle;
+  display: inline-block;
+  padding: 10px;
+}
+
+.react{
+  width: 100px;
+}
+
+.bg{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.code{
+  filter: invert(1);
+  width: 800px;
+}
+
+
+.titletext{
+  color: white;
+  b {
+    animation: rgb 15s linear infinite;
+  }
+}
+
+
+@keyframes rgb {
+  0% { color:red;}
+  20% { color:pink;}
+  40% { color:blue;}
+  60% { color:aquamarine;}
+  80% { color: green;}
+  100% { color: red;}
+}
+
+
+.div2{
+  max-width: 100%;
+  max-height: 150%;
+  background-color: white;
+  color: azure;
+  min-height: 150%;
+  min-width: 100%;
+  padding: 9;
+  margin: 0%;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index: -3;
+  margin-top: 670px
+}
+
+.aboutme{
+  color: white;
+  text-align: center;
+  background-color: darkgray;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+#aaa{
+  font-size: 50px;
+}
+
+.bbb{
+  font-size: 30px;
+}
+
+.portfolio{
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  margin-top: 350px;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
